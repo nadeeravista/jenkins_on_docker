@@ -27,4 +27,24 @@ The location of the volume ( -v /home/jenkins_docker/jenkins_home:/var/jenkins_h
 
 Virtual host can be any host you have configured with the IP address
 
+## Configure Jenkins
+If all goes well jenkins will be avaialbe on **jenkins.tripgeni.com**. However, Jenkins will ask you to enter AdminPassword stored in the containers **/var/jenkins_home/secrets/initialAdminPassword** directory
+
+##### Bash in to jenkins docker container
+List all the active containers
+```
+docker ps -a
+```
+Access jenkins container shell
+```
+docker exec -it [containerid] /bin/bash
+```
+Find the jenkins installation admin password
+```
+cat /var/jenkins_home/secrets/initialAdminPassword
+```
+Enter initialAdminPassword on jenkins installation
+Seelct "Install Suggested Plugins"
+Enter Jenkins user name password "Save and Continue"
+Enter Jenkins host name "Save and finish"
 
