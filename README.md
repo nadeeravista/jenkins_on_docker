@@ -1,7 +1,7 @@
 ## Overview
 This is not a docker project.However provide guidelines to spin up Jenkins on docker. This also needs Nginx for jenkins to run. Jenkins is running on a virtual port
 
-## Installation guide
+## Installation
 ##### Spining up Nginx
 ```
 docker run \
@@ -43,7 +43,27 @@ Find the jenkins installation admin password
 ```
 cat /var/jenkins_home/secrets/initialAdminPassword
 ```
-Enter initialAdminPassword on jenkins installation
-Seelct "Install Suggested Plugins"
-Enter Jenkins user name password "Save and Continue"
-Enter Jenkins host name "Save and finish"
+Enter initialAdminPassword on jenkins installation  
+Seelct "Install Suggested Plugins"  
+Enter Jenkins user name password "Save and Continue"  
+Enter Jenkins host name "Save and finish"  
+
+## Triggering git push on Jenkings
+This section uses Github hook method to listen to git repo. There are many other way to do the same such as periodial git change checks
+
+**Create public and private key on Jenkins installed server**  
+Jenkins need to allow git to authenticate and trigger git pul on jenkins
+
+Create " item name" -> enter appropriate name -> Selec "Free style project" -> "Ok"  
+Under "Source Code Management" -> select "git" -> Enter git reporsitory **ssh** url not the **https**
+Select "Add jenkins" credentials
+Select "SSH username with private key" -> select scope "Global (..."
+
+**Find the public and private ssh key from the container**
+Fun the follwoing command inside container
+```
+ssh-keygen
+```
+
+
+
