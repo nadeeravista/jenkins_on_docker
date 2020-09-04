@@ -1,7 +1,7 @@
 ## Overview
 This is not a docker project.However provide guidelines to spin up Jenkins on docker. This also needs Nginx for jenkins to run. Jenkins is running on a virtual port
 
-## Installation guide
+## Installation
 ##### Spining up Nginx
 ```
 docker run \
