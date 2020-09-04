@@ -1,4 +1,3 @@
-*.sln text eol=crlf
 ## Overview
 This is not a docker project.However provide guidelines to spin up Jenkins on docker. This also needs Nginx for jenkins to run. Jenkins is running on a virtual port
 
@@ -44,7 +43,7 @@ Find the jenkins installation admin password
 ```
 cat /var/jenkins_home/secrets/initialAdminPassword
 ```
-Enter initialAdminPassword on jenkins installation
-Seelct "Install Suggested Plugins"
-* Enter Jenkins user name password "Save and Continue"
-* Enter Jenkins host name "Save and finish"
+Enter initialAdminPassword on jenkins installation  
+Seelct "Install Suggested Plugins"  
+Enter Jenkins user name password "Save and Continue"  
+Enter Jenkins host name "Save and finish"  
