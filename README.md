@@ -72,8 +72,6 @@ ssh keys are shared with the host computer. Thus when spinup next time keys will
 ssh-keygen
 ```
 
-Add **id_rsa** file content to jenkins credetials
-
 **Add remove ssh credential from jenkins**
 
 ![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/jenkins-find-credetntials.png)
@@ -81,6 +79,9 @@ Add **id_rsa** file content to jenkins credetials
 
 ![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/jenkins-add-credetntials.png)
 
+
+Add **id_rsa** file content to jenkins credetials
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/add-private-key-to-jenkins.png)
 
 
 
