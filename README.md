@@ -43,7 +43,7 @@ Find the jenkins installation admin password
 ```
 cat /var/jenkins_home/secrets/initialAdminPassword
 ```
-Enter initialAdminPassword on jenkins installation
-Seelct "Install Suggested Plugins"
-Enter Jenkins user name password "Save and Continue"
-Enter Jenkins host name "Save and finish"
+*Enter initialAdminPassword on jenkins installation
+*Seelct "Install Suggested Plugins"
+*Enter Jenkins user name password "Save and Continue"
+*Enter Jenkins host name "Save and finish"
