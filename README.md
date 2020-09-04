@@ -97,6 +97,11 @@ Go to git settings page
 **You are done when you select the newly created credentials no errors seen**  
 ![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/no-errors-jenkins-git-ok.png)
 
-
+**Create webhook on github and create jenkins job to use the webhook** 
+Do the following under your project  
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/create-web-hook-0.png)
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/create-web-hook-1.png)
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/create-web-hook-2.png)
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/create-web-hook-3.png)
 
 
