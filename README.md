@@ -65,5 +65,7 @@ Fun the follwoing command inside container
 ssh-keygen
 ```
 
+**Add remove ssh credential from jenkins**
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/jenkins-find-credetntials.png)
 
 
