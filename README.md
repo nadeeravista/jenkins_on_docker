@@ -64,6 +64,9 @@ Fun the follwoing command inside container.Create the ssh key inside jenkins hom
 
 ![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-key-create-inside-container-and-on-shared-volume.png)
 
+ssh keys are shared with the host computer. Thus when spinup next time keys will be avaialbe
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-key-is-shared-with-the-host.png)
+
 
 ```
 ssh-keygen
