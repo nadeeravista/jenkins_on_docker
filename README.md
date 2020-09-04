@@ -74,28 +74,28 @@ ssh-keygen
 
 **Add remove ssh credential from jenkins**  
 
-![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/jenkins-find-credetntials.png)  
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/jenkins-find-credetntials.png)
 
 
-![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/jenkins-add-credetntials.png)  
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/jenkins-add-credetntials.png)
 
 
 Add **id_rsa** file content to jenkins credetials  
-![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/add-private-key-to-jenkins.png)  
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/add-private-key-to-jenkins.png)
 
 **Add jenkins public ssh key to git**  
 Go to git settings page
 
-![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-public-key-adding-to-git-0.png)  
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-public-key-adding-to-git-0.png)
 
-![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-public-key-adding-to-git-1.png)  
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-public-key-adding-to-git-1.png)
 
-![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-public-key-adding-to-git-2.png)  
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-public-key-adding-to-git-2.png)
 
-![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-public-key-adding-to-git-3.png)  
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-public-key-adding-to-git-3.png)
 
 **You are done when you select the newly created credentials no errors seen**  
-![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/no-errors-jenkins-git-ok.png)  
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/no-errors-jenkins-git-ok.png)
 
 
 
