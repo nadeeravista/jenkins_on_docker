@@ -62,17 +62,17 @@ Select "SSH username with private key" -> select scope "Global (..."
 **Find the public and private ssh key from the container**
 Fun the follwoing command inside container.Create the ssh key inside jenkins home. so that evertime spinup the jenkins key will be changed
 
-![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-key-create-inside-container-and-on-shared-volume.png)
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-key-create-inside-container-and-on-shared-volume.png) 
 
 ssh keys are shared with the host computer. Thus when spinup next time keys will be avaialbe
-![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-key-is-shared-with-the-host.png)
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-key-is-shared-with-the-host.png)  
 
 
 ```
 ssh-keygen
 ```
 
-**Add remove ssh credential from jenkins**
+**Add remove ssh credential from jenkins**  
 
 ![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/jenkins-find-credetntials.png)  
 
@@ -80,10 +80,10 @@ ssh-keygen
 ![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/jenkins-add-credetntials.png)  
 
 
-Add **id_rsa** file content to jenkins credetials
+Add **id_rsa** file content to jenkins credetials  
 ![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/add-private-key-to-jenkins.png)  
 
-**Add jenkins public ssh key to git**
+**Add jenkins public ssh key to git**  
 Go to git settings page
 
 ![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-public-key-adding-to-git-0.png)  
@@ -94,7 +94,7 @@ Go to git settings page
 
 ![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-public-key-adding-to-git-3.png)  
 
-**You are done when you select the newly created credentials no errors seen**
+**You are done when you select the newly created credentials no errors seen**  
 ![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/no-errors-jenkins-git-ok.png)  
 
 
