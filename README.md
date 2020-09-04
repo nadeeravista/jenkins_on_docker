@@ -47,3 +47,8 @@ Enter initialAdminPassword on jenkins installation
 Seelct "Install Suggested Plugins"  
 Enter Jenkins user name password "Save and Continue"  
 Enter Jenkins host name "Save and finish"  
+
+## Triggering git push on Jenkings
+This section uses Github hook method to listen to git repo. There are many other way to do the same such as periodial git change checks
+
+
