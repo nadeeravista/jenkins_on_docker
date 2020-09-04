@@ -61,6 +61,10 @@ Select "SSH username with private key" -> select scope "Global (..."
 
 **Find the public and private ssh key from the container**
 Fun the follwoing command inside container.Create the ssh key inside jenkins home. so that evertime spinup the jenkins key will be changed
+
+![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/ssh-key-create-inside-container-and-on-shared-volume.png)
+
+
 ```
 ssh-keygen
 ```
@@ -70,6 +74,7 @@ Add **id_rsa** file content to jenkins credetials
 **Add remove ssh credential from jenkins**
 
 ![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/jenkins-find-credetntials.png)
+
 
 ![alt text](https://github.com/nadeeravista/jenkins_on_docker/blob/master/images/jenkins-add-credetntials.png)
 
