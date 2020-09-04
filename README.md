@@ -51,4 +51,19 @@ Enter Jenkins host name "Save and finish"
 ## Triggering git push on Jenkings
 This section uses Github hook method to listen to git repo. There are many other way to do the same such as periodial git change checks
 
+**Create public and private key on Jenkins installed server**  
+Jenkins need to allow git to authenticate and trigger git pul on jenkins
+
+Create " item name" -> enter appropriate name -> Selec "Free style project" -> "Ok"  
+Under "Source Code Management" -> select "git" -> Enter git reporsitory **ssh** url not the **https**
+Select "Add jenkins" credentials
+Select "SSH username with private key" -> select scope "Global (..."
+
+**Find the public and private ssh key from the container**
+Fun the follwoing command inside container
+```
+ssh-keygen
+```
+
+
 
